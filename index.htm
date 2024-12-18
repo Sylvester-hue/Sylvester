@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "icon" href="notes.jpeg">
+    <meta charset="utf-8">
+    <meta name = "discription" content="Note-Taking">
+    <meta name="Authur" content="Sylvester Bockarie">
+	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<link rel= "stylesheet" href = "Style.css">
+<!---	<style>
+textarea { width: 100%; 
+	   height: 100px;
+	   padding: 10px;
+	   margin-bottom: 10px;
+	   border: 1px solid #ccc; 
+	  border-radius: 4px;
+	 font-size: 16px; 
+</style>--->
+    
+    <title>Note-Taking App</title>
+	
+</head>
+<body>
+    <h1><u>Note-Taking App</u></h1>
+    <textarea id="note" placeholder="Write your note here"></textarea><br>
+    <button id = "button1" onclick="saveNote()">Save Note </button>
+    <button id = "button2" onclick="downloadNotes()">Download Notes</button>
+    <button id = "button3" onclick="clearNotes()">Clear Notes</button>
+    <p id = "p1"></p>
+    <div id="savedNotes"></div>
+   <script src = "jquery.js"></script>
+ <script src ="index.js">
+       
+    </script>
+   
+</body>
+</html>
